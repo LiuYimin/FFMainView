@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		09B387F93ED479679A510F25 /* Pods_FFMainView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMainView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		357F8408B17926E22D5BA1DA /* Pods-FFMainView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMainView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFMainView_Example/Pods-FFMainView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		43E9EBAA3B4B58749FF8F33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		43E9EBAA3B4B58749FF8F33E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFMainView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFMainView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,8 +61,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		68C6AFB1E0F49F1CF21330C3 /* Pods-FFMainView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMainView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMainView_Example/Pods-FFMainView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		76F553F95A60280FE206E91F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		869A23599F0C31EC0C60489F /* FFMainView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFMainView.podspec; path = ../FFMainView.podspec; sourceTree = "<group>"; };
+		76F553F95A60280FE206E91F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		869A23599F0C31EC0C60489F /* FFMainView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFMainView.podspec; path = ../FFMainView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A79FF7E3D65A67277F1C0E63 /* Pods-FFMainView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFMainView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFMainView_Tests/Pods-FFMainView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C10495A1041DF5310A7A3171 /* Pods_FFMainView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFMainView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LiuYimin;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9GQ3P6BF9W;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -485,6 +488,7 @@
 			baseConfigurationReference = 68C6AFB1E0F49F1CF21330C3 /* Pods-FFMainView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GQ3P6BF9W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFMainView/FFMainView-Prefix.pch";
 				INFOPLIST_FILE = "FFMainView/FFMainView-Info.plist";
@@ -500,6 +504,7 @@
 			baseConfigurationReference = 357F8408B17926E22D5BA1DA /* Pods-FFMainView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9GQ3P6BF9W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFMainView/FFMainView-Prefix.pch";
 				INFOPLIST_FILE = "FFMainView/FFMainView-Info.plist";
