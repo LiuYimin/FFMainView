@@ -21,5 +21,5 @@
 - (void)registerCellClass:(Class)cellClass;
 /// config 'view' with 'data'
 - (void)configWithData:(id)data;
-
+//test
 @end
